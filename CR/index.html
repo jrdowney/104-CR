@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Competency Report</title>
+</head>
+<body>
+    <h1>Welcome to my video game</h1>
+    <!-- first charcter (Link)-->
+    <div class="wrap">
+        <div class="zone"> 
+            <h2>Link</h2>
+            <img src="https://i.imgur.com/84rmiVY.gif" alt="link">
+
+            <button class="btn" onclick="link.attack(bowser);">Attack</button>
+
+            <p id="info-c1">
+                Charcter Information
+            </p>
+
+        </div>
+
+    <!-- opponent (Bowser)-->
+        <div class="zone">
+            <h2>Bowser</h2>
+            <img src="https://i.pinimg.com/originals/dc/a1/58/dca1584ebf1de33e91067a7cf2bbce35.gif" alt="bowser">
+
+            <button class="btn" onclick="bowser.attack(link);">Attack</button>
+        
+
+            <p id="info-c2">
+                Charcter Information
+            </p>
+        </div>
+
+    </div> <!--  closing wrap div -->
+
+    <div id="console" class="console">
+
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
